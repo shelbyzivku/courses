@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    
+    <title>Courses App</title>
+    <link rel="stylesheet" href="/static/css/styles.css" type="text/css">
+  
+  </head>
+  <body>
+  	
+  	<h1>Welcome to the Courses App!</h1>
+  	<h3>Please add a course name (15 characters min)</h3>
+  	<h4>A description would be nice, but not necessary</h4>  
+  	
+  	<form action='/Courses/process' method='POST'>
+  	
+  		Name of Course: <br>
+  		<input type="text" name="course_name"><br>
+  	
+  		Description of Course: <br>
+  		<input type="text" name="course_des"><br>
+  	
+ 	 	<input type="submit" value="Add Course">
+  	
+  	</form>
+  
+  </body>
+</html>
